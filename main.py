@@ -4,9 +4,7 @@ from drivers import Driver
 from fare import RouteFare, SpecialTripFare
 
 
-# -----------------------------------------
-# Main Menu
-# -----------------------------------------
+
 def display_main_menu():
     print("\n" + "=" * 55)
     print(" ACE Engineering College Transportation Portal ")
@@ -23,7 +21,7 @@ def display_main_menu():
     print("0. Exit")
 
 
-# -----------------------------------------
+
 def main():
 
     manager = TransportManager("Mr. Ramesh")
@@ -122,6 +120,6 @@ def main():
             print("Invalid Choice!")
 
 
-# -----------------------------------------
+
 if __name__ == "__main__":
     main()
